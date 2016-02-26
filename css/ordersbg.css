@@ -1,0 +1,33 @@
+body{
+     background: url(../img/french-food1.jpg) no-repeat;
+    background-attachment: fixed;
+     background-size:100% auto;
+    
+     height: 100%;
+    }
+
+#menu ul{
+
+    	list-style-type: none;
+    }
+
+    #menu ul li{
+    	font-size: 1.2em;
+    }
+
+    #menuHeaders{
+    	font-size: 1.6em;
+    }
+
+    #menuDesc{
+    	color: #CDCDC1;
+
+    }
+
+
+
+    #backy{
+    	background-color: rgba(0,0,0,0.5);
+    }
+
+    

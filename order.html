@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>C|W - Bookings</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+
+
+    <link rel="stylesheet" href="css/reservation.css">
+    <link rel="stylesheet" href="css/wine.css">
+    <link rel="stylesheet" href="css/pure-min.css">
+    <link rel="stylesheet" href="css/960_24_col.css">
+    <link rel="stylesheet" href="css/ordersbg.css">
+    <link rel="stylesheet" href="css/dtfetch.css">
+
+
+    <link href='http://fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Bad+Script' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto:100' rel='stylesheet' type='text/css'>
+
+
+    <style type="text/css">
+        #bacon{
+
+            position: absolute;
+            top: 3000px;
+            height: 800px;
+            overflow: auto;
+        }
+        body{
+
+            background-attachment: fixed;
+        }
+
+        #jump{
+            text-decoration: none;
+            font-size:1.2em;
+            color: #C0FF3E;
+             transition: color 0.1s ease-in;
+        -moz-transition: color 0.1s ease-in; /* Firefox 4 */
+        -webkit-transition: color 0.1s ease-in; /* Safari and Chrome */
+        -o-transition: color 0.1s ease-in; /* Opera */
+        }
+
+        #jump:hover{
+            color:white;
+        }
+
+    </style>
+
+
+
+
+
+
+
+</head>
+<body>
+
+
+    <div class="book_wrap">
+        <div class="container_24" id="toppest">
+            <div class="header">
+
+               <div class="grid_24">
+                   <h4>Le Connaiseur</h4>
+                   <nav id="nav">
+                       <ul>
+                           <li><a href="index.html">Home</a></li>
+                           <li><a href="#">Cheese</a></li>
+                           <li><a href="wine.html">Wine</a></li>
+                           <li><a href="reservation.php">Book-Table</a></li>
+                           <li><a href="bookings.html">Bookings</a></li>
+                           <li><a href="#"><span style="color:#C0FF3E;">Order</span></a></li>
+                           <li><a href="contact.html">Contact</a></li>
+                       </ul>
+                   </nav>
+               </div>
+           </div>
+           <div class="grid_14" id="menuWrap">
+
+            <a class="js_onPageLink" id="jump"href="#bacon">Not sure about your your order? CrossCheck here</a>
+            <div id="backy">
+            <p>  <span style="font-size:2.5em">MENU</span><br></P>
+            
+
+            <div id="menu">
+                <ul>
+
+
+                <span id="menuHeaders">APPETIZERS</span>
+
+                <li>- palour au Gratin &nbsp $6.25</li> <span id="menuDesc"> &nbsp &nbsp Baked clams with garlic butter and bread crumbs</span>
+                <li>- Assiette de Fruits et Fondue de Brie &nbsp $6.75</li> <span id="menuDesc"> &nbsp &nbsp Wedge of baked Brie with ripe melon and berries</span>
+                <li>- Chausson du Fromage de Chevre  &nbsp $6.25</li> <span id="menuDesc"> &nbsp &nbsp Goat cheese tarts</span>
+               
+                
+            </ul><br>
+
+
+            <ul>
+
+
+                <span id="menuHeaders">SOUPE ET SALADES</span>
+
+                <li>- Epinards A la Grecque &nbsp $6.25</li> <span id="menuDesc"> &nbsp &nbsp Spinach, cucumbers,yogurt garlic dressing and feta</span>
+                <li>- Salade de Canard  &nbsp $11.50</li> <span id="menuDesc"> &nbsp &nbsp Roasted Duck with orange sherry vinaigrette, pecans, bacon and red onions on seasonal greens</span>
+                <li>- Soupe a Mignon  &nbsp $5.50</li> <span id="menuDesc"> &nbsp &nbsp A twist on the classic, made with 3 onions</span>
+                
+                
+            </ul><br>
+
+
+            <ul>
+
+
+                <span id="menuHeaders">LUNCH ENTREES</span>
+
+                <li>- Fordet a la Moutard et au Miel  &nbsp $12.95</li> <span id="menuDesc"> &nbsp &nbsp Grilled Chicken Breast with honey mustard glaze</span>
+                <li>- Porc ala Dijonnaise &nbsp $13.95</li> <span id="menuDesc"> &nbsp &nbsp Sauteed pork tenderloin medallions with an orange compare sauce</span>
+                <li>- Truite Sauté Sauce Amere  &nbsp $12.95</li> <span id="menuDesc"> &nbsp &nbsp Sauteed fresh boneless trout with raspberry vinegar butter sauce, tarragon, parsley and shallots</span>
+                <li>- Brochette cVAgneau a la Greque  $14.95</li> <span id="menuDesc"> &nbsp &nbsp Lamb Brocettes with sweet peppers, zucchini, onions with a Greek Citrus sauce of fresh rosemaly, oregano, orange, lime and grapefruit juice</span>
+                
+            </ul><br>
+
+
+            <ul>
+
+
+                <span id="menuHeaders">DINNER ENTREES</span>
+
+                <li>- Pates au Fruits de Mer &nbsp $15.95</li> <span id="menuDesc"> &nbsp &nbsp Bay scallops, prawns, snowpeas andwild mushrooms over egg linguini with a garlic vermouth sauce</span>
+                <li>- Supreme de Volatile &nbsp $16.95</li> <span id="menuDesc"> &nbsp &nbsp Sauteed boneless chicken breast with sherry vinegar butter sauce, with prosciutto and chanterelles</span>
+                <li>- Entrecote Grille &nbsp $23.95</li> <span id="menuDesc"> &nbsp &nbsp Boneless Aged rib eye steak with freshly grated horseradish and Sauce Bordelaise</span>
+                
+                
+            </ul><br>
+
+            <ul>
+
+
+                <span id="menuHeaders">DESSERTS</span>
+
+                <li>- Frozen Anisette Souffle &nbsp $6.75</li> 
+                <li>- Dark Chocolate Mousse &nbsp $6.25</li>
+                
+                
+            </ul><br>
+
+
+
+
+            </div>    
+               </div>
+
+           </div>   
+
+         <div class="grid_9" style="margin-top:2em;">   
+         <form action="" class="grid_9" id="forma" method="post">
+            <!-- pure-form pure-form-stacked  -->
+
+
+            <label for="Nam" id="labells">Your Name</label>
+                <input type="text" name="Name" autofocus id="Nam" class="line" style="font-size:1.2em;"><BR>
+
+                <label for="Nam" id="labells">Your Address</label>
+                <input type="text" name="Address" id="add" class="line" style="font-size:1.2em;"><BR>
+
+
+            
+
+
+
+            <label for="Restaur" id="labells">APPETIZERS</label> 
+            <input list="appetizer--s" name="appetizer" id="appetizer" class="line">
+           
+            <datalist id="appetizer--s">
+                <option value="palour au Gratin">
+                    <option value="Assiette de Fruits et Fondue de Brie">
+                        <option value="Chausson du Fromage de Chevre">
+                            
+                                            </datalist>
+
+<br>
+                <label for="Restaur" id="labells">SOUPE ET SALADES</label><br>
+                <input list="Soups" name="soups" id="soups" class="line">
+                <datalist id="Soups">
+                
+                    <option value="Epinards A la Grecque">
+                        <option value="Salade de Canard">
+                            <option value="Soupe a Mignon">
+                               
+                                            </datalist>
+
+                <br>
+
+                
+                <label for="dte" id="labells">LUNCH / DINNER </label><br>
+                <input list="lunch" name="lunch" id="lunch" class="line">
+                <datalist id="lunch">
+                    <option value="Epinards A la Grecque">
+                        <option value="Salade de Canard">
+                            <option value="Soupe a Mignon">
+                               
+                                            </datalist>
+
+
+
+
+                <br>
+
+                <label for="nop" id="labells">DESSERTS</label> <br>
+                <input list="Desserts" name="desserts"id="desserts" class="line">
+                <datalist id="Desserts">
+                <option value="Frozen Anisette Souffle ">
+                    <option value="Dark Chocolate Mousse ">
+                        
+                            
+                                
+                                            </datalist>
+
+               <input type="submit" value="Place my order." class="pure-button pure-button-primary" id="butt"><br>
+                
+
+        </form>  
+
+        <div>
+    
+    <span class="error" style="display:none"> Please Enter Valid Data</span>
+    <span class="success" style="display:none; font-size:1.5em;"> Your order is noted. Sit tight till you recieve it. </span>
+</div>
+
+</div>
+           
+
+<div class="grid_24" id="bacon">
+<form action="">
+                <label for="Name" id="labells">Your Name</label>
+                <input type="text" name="Name" id="Name" class="line" onkeyup="getStates(this.value)"/>
+
+
+
+            </form>
+<a class="js_onPageLink" id="jump"href="#toppest">Go back up and order more!</a>
+
+ <div id="results"></div>
+
+</div>
+
+
+
+
+
+
+
+<!-- data entry -->
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/
+libs/jquery/1.3.0/jquery.min.js">
+</script>
+
+<!-- data entryy -->
+<script type="text/javascript" >
+$(function() {
+    $("#butt").click(function() {
+
+        var Name = $("#Nam").val();
+        var Address = $("#add").val();
+        var appetizers = $("#appetizer").val();
+        var soups = $("#soups").val();
+        var lunch = $("#lunch").val();
+        var desserts = $("#desserts").val();
+
+        console.log(desserts,Name,Address,appetizers,soups,lunch);
+
+        var dataString = 'Name='+ Name + '&Address=' + Address + '&appetizers=' + appetizers + '&soups=' + soups + '&lunch=' + lunch + '&desserts=' + desserts;
+
+        console.log(dataString);
+
+        if(Name=='' || Address=='' || appetizers=='' || soups=='' || lunch=='' || desserts=='')
+        {
+            $('.success').fadeOut(200).hide();
+            $('.error').fadeOut(200).show();
+        }
+        else
+        {
+            $.ajax({
+                type: "POST",
+                url: "takeaway.php",
+                data: dataString,
+                success: function(){
+                    $('.success').fadeIn(200).show();
+                    $('.error').fadeOut(200).hide();
+                }
+            });
+        }
+        return false;
+    });
+ });
+</script>
+
+
+
+<!-- scrolllllll -->
+        <script type="text/javascript">
+
+        $(function(){
+    $("a.js_onPageLink").bind("click", function (event) {
+        event.preventDefault ? event.preventDefault() : event.returnValue = false;
+        var target = $(this).attr("href");
+        $("html, body").stop().animate({
+                scrollLeft: $(target).offset().left,
+                scrollTop: $(target).offset().top
+            }, 1200);
+    });
+});
+
+        </script>
+
+
+<!-- data fetch -->
+
+ <script type="text/javascript">
+    function getStates(value){
+        $.post("showOrder.php",{partialState:value},function(data){
+            $("#results").html(data);
+
+
+        });
+
+    }
+
+
+    </script>
+
+       </div>
+   </body>
+   </html>

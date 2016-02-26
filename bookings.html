@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>C|W - Bookings</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+
+
+    <link rel="stylesheet" href="css/reservation.css">
+    <link rel="stylesheet" href="css/wine.css">
+    <link rel="stylesheet" href="css/pure-min.css">
+    <link rel="stylesheet" href="css/960_24_col.css">
+    <link rel="stylesheet" href="css/dtfetch.css">
+
+    <!-- <link href='http://fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Bad+Script' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto:100' rel='stylesheet' type='text/css'> -->
+
+
+    <!-- Data Fetching PHP connectivity-->
+
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript">
+    function getStates(value){
+        $.post("getState.php",{partialState:value},function(data){
+            $("#results").html(data);
+
+
+        });
+
+    }
+
+
+    </script>
+
+    <!-- data fetching ends -->
+
+
+
+
+</head>
+
+
+<body>
+
+   <div class="wrapper">
+      <div class="book_wrap">
+         <div class="container_24">
+            <div class="header">
+
+               <div class="grid_24">
+                   <h4>Le Connaiseur</h4>
+                   <nav id="nav">
+                       <ul>
+                           <li><a href="index.html">Home</a></li>
+                           <li><a href="#">Cheese</a></li>
+                           <li><a href="wine.html">Wine</a></li>
+                            <li><a href="reservation.php">Book-Table</a></li>
+                            <li><a href="#"><span style="color:#C0FF3E;">Bookings</span></a></li>
+                           <li><a href="order.html">Order</a></li>
+                           <li><a href="contact.html">Contact</a></li>
+                       </ul>
+                   </nav>
+               </div>
+           </div>
+
+
+
+            <form action="">
+                <label for="Name" id="labells">Your Name</label>
+                <input type="text" name="Name" id="Name" class="line" onkeyup="getStates(this.value)"/>
+
+
+
+            </form>
+            
+
+            <div id="results"></div>
+
+
+
+
+
+
+
+
+        
+    </div>
+</div>
+</div>
+
+
+
+
+
+
+</body>
+</html>
+
+

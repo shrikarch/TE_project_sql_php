@@ -1,0 +1,56 @@
+[
+  {
+    "name":"La Crema",
+    "shortname":"Crema",
+    "reknown":"Sonoma Coast Chardonnay ($18)",
+    "bio":"At La Crema, winemaker Melissa Stackhouse makes a range of subtly expressive Chardonnays and Pinot Noirs. Her Sonoma Coast Chardonnay, one of La Crema’s most widely available bottlings, is also one of her best: round and rich with ripe pear and caramel-vanilla flavors."
+  },
+  {
+    "name":"Chateau Ste. Michelle",
+    "shortname":"Ste. Michelle",
+    "reknown":"Columbia Valley Merlot ($16)",
+    "bio":"Unquestionably the largest producer in Washington State (more than a million cases each year), Chateau Ste. Michelle is also one of the most adventurous: The winery has forged partnerships with famous European names such as Tuscany’s Piero Antinori and Ernst Loosen of Germany’s Mosel, and has developed properties in up-and-coming regions like Washington’s Red Mountain and Horse Heaven Hills. Its Columbia Valley Merlot—smoky, savory and rich with black cherry fruit—is one of the reasons Washington Merlot is so highly regarded."
+  },
+  {
+    "name":"Beringer",
+    "shortname":"Beringer",
+    "reknown":"Founder’s Estate Cabernet Sauvignon ($11)",
+    "bio":"This historic winery makes arguably the broadest collection of acclaimed wines in California. Its Private Reserve has been a benchmark for Napa Valley Cabernet Sauvignon since 1976. The much more affordable Founder’s Estate Cabernet Sauvignon is also impressive: a velvety, generous, cassis-driven red."
+  },
+  {
+    "name":"Blackstone Winery",
+    "shortname":"Blackstone",
+    "reknown":"California Merlot ($12)",
+    "bio":"Blackstone started out in 1990 producing one of California’s most succulent, affordable Merlots. These days, it makes a large range of wines (including a delicious Riesling only available at its Kenwood, California, tasting room), but the backbone of its business, and one of its best bottlings, is still talented winemaker Dennis Hill’s lightly smoky, plummy Merlot."
+  },
+  {
+    "name":"Pepperwood Grove",
+    "shortname":"Pepperwood",
+    "reknown":"California Merlot ($8)",
+    "bio":"Don Sebastiani’s Sonoma-based wine négociant firm, Don Sebastiani & Sons, was founded only in 2001, but its multiple brands have quickly become go-to names for high-quality, affordable wines made with grapes sourced from throughout California. Pepperwood Grove may be one of the company’s least playful brand names (compared to Smoking Loon, say, or Screw Kappa Napa), yet its juicy California Merlot, full of plum and chocolate notes, embodies the appealingly straightforward drinkability of Don Sebastiani’s wines."
+  },
+  {
+    "name":"King Estate",
+    "shortname":"Ed King",
+    "reknown":"Oregon Pinot Gris ($16)",
+    "bio":"It takes a certain kind of genius to envision vineyards where cattle are grazing, but that’s exactly what Ed King III did in early 1991. While he was on a hay-buying trip in Oregon’s Lorane Valley, he noticed that the hillside slopes where the cattle were standing were similar to a couple of small vineyards he already owned. The 600-acre ranch turned out to be for sale, so King bought it. Now King Estate has become one of Oregon’s largest and most reliable producers. The winery is particularly known for its Oregon Pinot Gris, a crisp white full of stone-fruit flavors that is a consistently great value."
+  },
+  {
+    "name":"Clos Du Bois",
+    "shortname":"Bois's",
+    "reknown":"Sonoma County Pinot Noir ($20)",
+    "bio":"Clos du Bois has been making reliable wines for years; indeed, its Marlstone proprietary red blend has been acclaimed since its first vintage in 1978. In the past few years, though, new winemaker Erik Olsen (who made his name at Washington State’s Chateau Ste. Michelle) has lifted quality levels here another notch. That’s clear in the latest vintage of Marlstone, the 2003, and also in Clos Du Bois’s succulent Sonoma County Pinot Noir—one of the few $20 Pinots that really gives a sense of the allure of this complex grape."
+  },
+  {
+    "name":"Marqués de Riscal",
+    "shortname":"Marqués",
+    "reknown":"Rioja Reserva ($19)",
+    "bio":"There’s the much-ballyhooed new Frank Gehry–designed hospitality center, not to mention the new restaurant from Francis Paniego, Rioja’s most famous chef, but there are also great wines made at Marqués de Riscal. Among them are the luxurious Barón de Chirel blend of Tempranillo and Cabernet Sauvignon, a long-aging Gran Reserva and this focused Reserva, with its classically Riojan notes of red cherries and vanilla."
+  },
+  {
+    "name":"Frescobaldi",
+    "shortname":"Frescobaldi",
+    "reknown":"The Frescobaldis are nearly as famous as the Antinoris in their native Florence (the family also has a palazzo there) and in all of Tuscany, too. The Frescobaldi clan currently claims nine Tuscan estates, including Castiglioni, where the label’s basic Chianti offers a taste of ripe Frescobaldi fruit for a very small price.",
+    "bio":"A senior at the China International Art University, Xhou has become well-known for his miniature sculptures, often the size of a rice granule, that are displayed by rear projection of microscope images on canvas. Xhou will discuss the art and science behind his incredibly detailed works of art."
+  }
+]

@@ -1,0 +1,192 @@
+    
+    @font-face
+    {
+    font-family:myfont1;
+    src: url(../fonts/CaviarDreams.ttf);
+    }
+     @font-face
+    {
+    font-family:Bad Script;
+    src: url(../fonts/BadScript-Regular.ttf);
+    }
+     @font-face
+    {
+    font-family:Lato;
+    src: url(../fonts/Lato-Hairline.ttf);
+    }
+     @font-face
+    {
+    font-family:Roboto;
+    src: url(../fonts/Roboto-Thin.ttf);
+    }
+    
+
+    
+    
+.wrapper{
+    margin-top: 1em;
+    background: rgba(0,0,0,0);}
+
+
+
+ .header h4,nav{
+    margin:0px auto;
+}
+    
+    .header h4{
+    margin:0px;
+
+        float:center;
+        padding-left:.5em;
+    color:white;
+        font-size:2.7em;
+      font-family: 'Bad Script', myfont1;
+        text-shadow:0 0 0px white;
+        -webkit-font-smoothing: antialiased;
+    padding-left:3.5em;
+        
+        
+    }
+
+
+
+.grid_24 h4{
+background-image:url(../img/wine-fork1.png);
+    background-repeat:no-repeat;
+    background-size:contain;
+}
+
+
+
+    nav{
+        padding-top: 0px;
+        margin-top:0px;
+        font-size:1.2em;
+    }
+
+    nav a{
+        transition: color 0.5s ease-in;
+        -moz-transition: color 0.5s ease-in; /* Firefox 4 */
+        -webkit-transition: color 0.5s ease-in; /* Safari and Chrome */
+        -o-transition: color 0.5s ease-in; /* Opera */
+    
+        color:white;
+        font-size:1em;
+
+     text-decoration:none; 
+     
+    }
+
+
+
+   nav a:hover{
+        color: #C0FF3E;
+    text-decoration:underline;
+    }
+   
+
+ /*   nav a:hover > .hm{
+        color: yellow;
+    /*text-decoration:overline;*/
+    }
+   */
+   nav a .hm{
+        color: white;
+       
+        font-size:1em;
+     text-decoration:none; 
+    
+
+
+    
+
+    }
+
+    /*nav a .hm:hover{
+
+        color: white;
+    }*/
+
+
+    nav li{
+        
+        padding-top:0em;
+        overflow:hidden; 
+    display:inline-block;
+         font-family: 'Bad Script', myfont1;
+    
+    }
+
+
+    nav li a{
+        
+     padding-left:.7em;   
+    }
+
+nav li:first-child{
+
+    padding-left:0em;
+}
+
+
+
+#update{
+   
+     font-family: 'Lato', sans-serif;
+ color:white;
+ /*height: 550px;*/
+/* overflow: auto;*/
+    
+}
+#update ul{
+animation:myfirst 1s;
+    -moz-animation:myfirst 1s;
+-webkit-animation:myfirst 1s; /* Safari and Chrome */
+    
+}
+#update p{
+font-family: 'Roboto', sans-serif;
+    text-align:justify;
+}
+
+
+.line {
+    display: block;
+    border: none;
+    color: #fff;
+    background: transparent;
+    border-bottom: 1px dotted #fff;
+    padding: 5px 2px 0 2px;
+}
+ 
+.line:focus {
+    outline: none;
+    border-color: #51CBEE;
+}
+
+#frenchwine{
+    font-family: 'Roboto', sans-serif;
+color:white;
+    text-align:justify;
+
+
+
+
+@keyframes myfirst
+{
+0% {opacity: 0.3;}
+100% {opacity: 1.0;}
+}
+
+@-moz-keyframes myfirst
+{
+0% {opacity: 0.0;}
+100% {opacity: 1.0;}
+}
+
+@-webkit-keyframes myfirst /* Safari and Chrome */
+{
+0% {opacity: 0.3;}
+100% {opacity: 1.0;}
+}
+

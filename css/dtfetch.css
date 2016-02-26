@@ -1,0 +1,36 @@
+#results ul li{
+ text-decoration: none;
+ display: inline-block;
+ font-size: 3em;
+
+
+}
+
+#results ul{
+	animation:myfirst 1s;
+    -moz-animation:myfirst 1s;
+-webkit-animation:myfirst 1s;
+}
+
+body{
+	background-attachment: fixed;
+}
+
+
+@keyframes myfirst
+{
+0% {opacity: 0.3;}
+100% {opacity: 1.0;}
+}
+
+@-moz-keyframes myfirst
+{
+0% {opacity: 0.0;}
+100% {opacity: 1.0;}
+}
+
+@-webkit-keyframes myfirst /* Safari and Chrome */
+{
+0% {opacity: 0.3;}
+100% {opacity: 1.0;}
+}
